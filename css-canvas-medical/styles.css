@@ -1,0 +1,55 @@
+nav {
+  border: solid lightgray;
+  border-width: 0 0 1px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.navigation,
+.contact-us {
+  font-family: Avenir, sans-serif;
+  border: none;
+  padding: 10px 15px;
+}
+
+.navigation {
+  background-color: white;
+  color: rgb(160 160 160);
+}
+
+.contact-us {
+  color: white;
+  background-color: rgb(38 77 115);
+  border-radius: 4px;
+}
+
+.nav-image {
+  margin: 10px 70px;
+  width: 150px;
+}
+
+.nav-banner {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+}
+
+.contact-us:hover {
+  background-color: white;
+  color: rgb(38 77 115);
+  border: 1px solid rgb(38 77 115);
+}
