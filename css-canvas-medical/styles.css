@@ -1,3 +1,7 @@
+h1 {
+  font-family: "Tiempos Headline", serif;
+}
+
 nav {
   border: solid lightgray;
   border-width: 0 0 1px;
@@ -16,6 +20,10 @@ button:hover {
 
 .column-full {
   flex-basis: 100%;
+}
+
+.column-half {
+  flex-basis: 50%;
 }
 
 .navigation,
@@ -46,6 +54,31 @@ button:hover {
   display: flex;
   justify-content: flex-end;
   margin-right: 70px;
+}
+
+.central-blurb {
+  margin: 70px;
+  position: relative;
+}
+
+.central-image {
+  width: 100%;
+}
+
+.body-area {
+  margin: 70px;
+  position: absolute;
+  top: 0;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0 0 0 / 25%);
 }
 
 .contact-us:hover {
