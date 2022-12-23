@@ -19,6 +19,7 @@ h4 {
 p {
   font-family: Avenir, sans-serif;
   font-size: 14px;
+  line-height: 1.5rem;
 }
 
 nav {
@@ -88,7 +89,7 @@ button:hover {
   margin-right: 70px;
 }
 
-.central-blurb {
+.relative {
   position: relative;
 }
 
@@ -118,11 +119,6 @@ button:hover {
   font-weight: normal;
 }
 
-.body-text,
-.loc-blurb {
-  line-height: 1.5rem;
-}
-
 .get-started {
   font-family: Avenir, sans-serif;
   border: none;
@@ -147,6 +143,16 @@ button:hover {
 
 .loc-blurb {
   text-align: center;
+}
+
+.learn-more {
+  margin: 40px 70px 20px;
+  color: slategray;
+}
+
+.start-learning {
+  position: absolute;
+  right: 0;
 }
 
 .contact-us:hover,
