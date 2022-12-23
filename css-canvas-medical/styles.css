@@ -3,6 +3,19 @@ h1 {
   font-size: 34px;
 }
 
+h2 {
+  font-family: "Tiempos Headline", serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+h4 {
+  font-family: Avenir, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 18px;
+}
+
 p {
   font-family: Avenir, sans-serif;
   font-size: 14px;
@@ -28,9 +41,17 @@ button:hover {
   flex-basis: 100%;
 }
 
-/* .column-half {
+.column-half {
   flex-basis: 50%;
-} */
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.margin {
+  margin: 70px;
+}
 
 .navigation,
 .contact-us {
@@ -68,7 +89,6 @@ button:hover {
 }
 
 .central-blurb {
-  margin: 70px;
   position: relative;
 }
 
@@ -78,7 +98,6 @@ button:hover {
 }
 
 .body-area {
-  margin: 70px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -99,7 +118,8 @@ button:hover {
   font-weight: normal;
 }
 
-.body-text {
+.body-text,
+.loc-blurb {
   line-height: 1.5rem;
 }
 
@@ -109,6 +129,24 @@ button:hover {
   font-size: 16px;
   padding: 10px 30px;
   margin-top: 10px;
+}
+
+.loc-section {
+  background-color: rgb(245 245 245);
+  color: slategray;
+  display: flex;
+  justify-content: center;
+}
+
+.loc-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.loc-blurb {
+  text-align: center;
 }
 
 .contact-us:hover,
