@@ -190,9 +190,32 @@ button:hover {
   margin: 20px 0;
 }
 
+.footer-two {
+  margin: 40px 70px;
+}
+
+.footer-two > div {
+  display: flex;
+}
+
+.footer-two-nav {
+  font-family: Avenir, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  color: slategray;
+  margin-right: 30px;
+}
+
 .contact-us:hover,
 .get-started:hover {
   background-color: white;
   color: rgb(38 77 115);
   border: 1px solid rgb(38 77 115);
+}
+
+.footer-nav:hover,
+.footer-two-nav:hover {
+  text-decoration: underline;
 }
