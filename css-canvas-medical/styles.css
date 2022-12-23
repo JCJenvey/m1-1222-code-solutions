@@ -50,6 +50,10 @@ button:hover {
   flex-basis: calc(100% / 3);
 }
 
+.column-quarter {
+  flex-basis: 25%;
+}
+
 .margin {
   margin: 70px;
 }
@@ -153,6 +157,37 @@ button:hover {
 .start-learning {
   position: absolute;
   right: 0;
+}
+
+.footer-one {
+  background-color: rgb(75 75 75);
+  padding: 100px 70px;
+  color: white;
+}
+
+.footer-img {
+  width: 150px;
+  margin-bottom: 40px;
+}
+
+.footer-nav-tag {
+  text-transform: uppercase;
+  text-align: start;
+  margin: 0;
+}
+
+.footer-nav {
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+}
+
+.footer-nav-tag,
+.footer-nav {
+  margin: 20px 0;
 }
 
 .contact-us:hover,
