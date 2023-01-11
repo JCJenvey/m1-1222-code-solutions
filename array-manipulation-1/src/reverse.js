@@ -13,7 +13,7 @@
 
 function reverse(array) {
   if (!Array.isArray(array)) {
-    return 'Invalid Input';
+    return [];
   }
   var newArray = [];
   for (var i = 0; i < array.length; i++) {

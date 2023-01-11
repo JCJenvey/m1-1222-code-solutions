@@ -12,8 +12,8 @@
 // return the variable
 
 function initial(array) {
-  if (!Array.isArray(array)) {
-    return 'Invalid Input';
+  if (!Array.isArray(array) || array.length === 1) {
+    return [];
   }
   var newArray = [];
   for (var i = 0; i < array.length - 1; i++) {

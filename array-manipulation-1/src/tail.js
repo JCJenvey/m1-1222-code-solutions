@@ -1,6 +1,6 @@
 /* exported tail */
 
-// check if input is NOT an array using the isArray method
+// check if input is NOT an array OR has only 1 element
 // if true, return an empty array
 // assign an empty array to a variable
 // start a for loop, iterating a number of times equal to the length of input
@@ -12,8 +12,8 @@
 // return the variable
 
 function tail(array) {
-  if (!Array.isArray(array)) {
-    return 'Invalid Input';
+  if (!Array.isArray(array) || array.length === 1) {
+    return [];
   }
   var newArray = [];
   for (var i = 1; i < array.length; i++) {
