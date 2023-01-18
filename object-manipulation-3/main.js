@@ -157,8 +157,8 @@ function runGame(players, maxCardsInHand) {
       winner = players[i].name;
     }
   }
-  console.log('The highest score is ' + highScore);
-  console.log('The winner is ' + winner + '!');
+  console.log('The highest score is ', highScore);
+  console.log('The winner is ', winner + '!');
   deck = _.shuffle(deck);
 }
 
@@ -173,5 +173,6 @@ function setScore(player) {
       score += 11;
     }
   }
+  player.hand = [];
   return score;
 }
