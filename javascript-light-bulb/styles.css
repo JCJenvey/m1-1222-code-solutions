@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+.light-mode {
+  background-color: white;
+}
+
+.light-bulb {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.light-off {
+  background-color: rgb(40 40 40);
+}
+
+.light-on {
+  background-color: rgb(255 255 134);
+  box-shadow: 0 0 50px rgb(255 255 10 / 100%);
+}
